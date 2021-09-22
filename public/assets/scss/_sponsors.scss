@@ -1,0 +1,13 @@
+.sponsors {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+
+  img {
+    width: 150px;
+    height: 80px;
+    color: gray;
+    filter: invert(100%);
+    -webkit-filter: sepia(100%);
+  }
+}

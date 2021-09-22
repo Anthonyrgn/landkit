@@ -54,7 +54,7 @@ table {
 
 /* ---- SASS CONFIGURATION ---- */
 .header-container {
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -86,7 +86,7 @@ table {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 .container .row {
@@ -135,13 +135,15 @@ table {
   color: #345eea;
 }
 .container .row .col-2 {
+  position: relative;
+  left: 15%;
   width: 45vw;
   height: 45vh;
   background: url("../img/illustration-2.png") center/cover;
 }
 
 .container-items {
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
   display: flex;
 }
@@ -164,6 +166,62 @@ table {
 }
 .container-items .designed, .container-items .documentation {
   margin-left: 60px;
+}
+
+.sponsors {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.sponsors img {
+  width: 150px;
+  height: 80px;
+  color: gray;
+  filter: invert(100%);
+  -webkit-filter: sepia(100%);
+}
+
+.form-container {
+  background-color: #fafcfe;
+  height: 100vh;
+}
+.form-container article {
+  max-width: 1100px;
+  display: flex;
+  margin: 0 auto;
+}
+.form-container .card {
+  background: white;
+  margin-top: 50px;
+  width: 20vw;
+  height: 60vh;
+}
+.form-container .card .img-card img {
+  width: 20vw;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 30vh;
+}
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+}
+.form-container form label {
+  margin-top: 20px;
+}
+.form-container form input {
+  background: transparent;
+  width: 15vw;
+  border: none;
+  border-bottom: 1px solid #f1f4f8;
+  height: 2vh;
+  outline: none;
+}
+
+.line {
+  border: 1px solid #f1f4f8;
+  margin-top: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
