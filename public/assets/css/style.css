@@ -1,0 +1,169 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ---- SASS CONFIGURATION ---- */
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.header-container ul {
+  display: flex;
+}
+.header-container ul a {
+  margin: 20px;
+  text-decoration: none;
+  color: #506691;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.header-container ul a:hover {
+  color: #345eea;
+}
+.header-container .nav-btn {
+  background-color: #345eea;
+  padding: 15px;
+  border-radius: 5px;
+}
+.header-container .nav-btn a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.container .row {
+  display: flex;
+  margin-top: 150px;
+}
+.container .row .col-1 {
+  margin-top: 50px;
+  width: 35vw;
+  height: 45vh;
+}
+.container .row .col-1 h1 {
+  font-size: 3rem;
+}
+.container .row .col-1 h1 span {
+  color: #345eea;
+}
+.container .row .col-1 p {
+  font-size: 1.5rem;
+  padding-top: 20px;
+  color: #969ab8;
+}
+.container .row .col-1 .flex-btn {
+  display: flex;
+  margin-top: 50px;
+}
+.container .row .col-1 .flex-btn div {
+  background: #345eea;
+  padding: 20px;
+  border-radius: 5px;
+}
+.container .row .col-1 .flex-btn div a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font: 1.5rem;
+}
+.container .row .col-1 .flex-btn div i {
+  margin-left: 10px;
+}
+.container .row .col-1 .flex-btn .btn-white {
+  background: #eaeffd;
+  margin-left: 15px;
+}
+.container .row .col-1 .flex-btn .btn-white a {
+  color: #345eea;
+}
+.container .row .col-2 {
+  width: 45vw;
+  height: 45vh;
+  background: url("../img/illustration-2.png") center/cover;
+}
+
+.container-items {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+.container-items div {
+  width: 17vw;
+  height: 20vh;
+}
+.container-items div h3 {
+  font-size: 1.3rem;
+  margin-top: 10px;
+}
+.container-items div p {
+  color: #86a7d1;
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+.container-items .built img, .container-items .designed img, .container-items .documentation img {
+  width: 50px;
+  height: 50px;
+}
+.container-items .designed, .container-items .documentation {
+  margin-left: 60px;
+}
+
+/*# sourceMappingURL=style.css.map */
