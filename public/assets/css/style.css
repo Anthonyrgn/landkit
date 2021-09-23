@@ -188,35 +188,51 @@ table {
 .form-container article {
   max-width: 1100px;
   display: flex;
+  align-items: center;
   margin: 0 auto;
 }
-.form-container .card {
+.form-container article .card {
   background: white;
   margin-top: 50px;
   width: 20vw;
   height: 60vh;
 }
-.form-container .card .img-card img {
+.form-container article .card .img-card img {
   width: 20vw;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   height: 30vh;
 }
-.form-container form {
+.form-container article form {
   display: flex;
   flex-direction: column;
   width: 20vw;
+  margin: 0 0 0 30px;
 }
-.form-container form label {
+.form-container article form label {
   margin-top: 20px;
+  color: #8aaaca;
 }
-.form-container form input {
+.form-container article form input {
   background: transparent;
   width: 15vw;
   border: none;
   border-bottom: 1px solid #f1f4f8;
   height: 2vh;
   outline: none;
+}
+.form-container article .btn-sample {
+  height: 12vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-container article .btn-sample a {
+  background-color: #5bc2a3;
+  padding: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
 }
 
 .line {
